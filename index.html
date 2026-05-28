@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pange Fotso Frank Radesky — Portfolio & Dossier de Fin d'Étude</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <span class="loader-text">PF</span>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav id="nav">
+    <span class="nav-logo">PF — Portfolio 2026</span>
+    <ul class="nav-links">
+      <li><a href="#profil">Profil</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#experience">Parcours</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Me contacter</a>
+    <button class="nav-burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#profil" class="mm-link">Profil</a></li>
+      <li><a href="#competences" class="mm-link">Compétences</a></li>
+      <li><a href="#projets" class="mm-link">Projets</a></li>
+      <li><a href="#experience" class="mm-link">Parcours</a></li>
+      <li><a href="#contact" class="mm-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="home">
+    <div class="hero-noise"></div>
+
+    <div class="hero-top">
+      <span class="hero-badge reveal">Disponible — Stage / Alternance</span>
+      <span class="hero-location reveal">Montpellier, France</span>
+    </div>
+
+    <div class="hero-center">
+      <div class="hero-tag reveal">Développeur Full-Stack</div>
+      <h1 class="reveal">
+        <span class="h1-line">Pange Fotso</span>
+        <span class="h1-line italic">Frank Radesky</span>
+      </h1>
+      <p class="hero-bio reveal">
+        Ingénieur logiciel avec 2 ans d'expérience en développement web et mobile. 
+        Spécialisé dans l'intégration de l'IA, les interfaces modernes et l'architecture 
+        e-commerce — du prototype à la production.
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#projets" class="btn-primary">Voir mes projets</a>
+        <a href="#contact" class="btn-ghost">Me contacter →</a>
+      </div>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat-item reveal">
+        <span class="stat-n">2+</span>
+        <span class="stat-l">Ans d'expérience</span>
+      </div>
+      <div class="stat-item reveal">
+        <span class="stat-n">5+</span>
+        <span class="stat-l">Projets livrés</span>
+      </div>
+      <div class="stat-item reveal">
+        <span class="stat-n">8+</span>
+        <span class="stat-l">Technologies maîtrisées</span>
+      </div>
+      <div class="stat-item reveal">
+        <span class="stat-n">3</span>
+        <span class="stat-l">Expériences professionnelles</span>
+      </div>
+    </div>
+
+    <div class="hero-bg-word" aria-hidden="true">DEV</div>
+    <span class="hero-scroll-hint">scroll</span>
+  </section>
+
+
+  <!-- ===================== 00 — PROFIL ===================== -->
+  <section class="profil-section" id="profil">
+    <div class="section-header reveal">
+      <span class="section-num">00</span>
+      <h2 class="section-title">Profil</h2>
+      <span class="section-sub">Dossier de fin d'étude · Keyce Informatique</span>
+    </div>
+
+    <div class="profil-grid">
+      <div class="profil-left reveal">
+        <div class="profil-avatar">
+          <span class="avatar-initials">PF</span>
+          <div class="avatar-ring"></div>
+        </div>
+        <div class="profil-identity">
+          <div class="pi-name">Pange Fotso Frank Radesky</div>
+          <div class="pi-role">Développeur Full-Stack</div>
+          <div class="pi-degree">Licence Génie Logiciel · 2025</div>
+        </div>
+      </div>
+
+      <div class="profil-right">
+        <div class="profil-block reveal">
+          <div class="pb-label">Présentation</div>
+          <p class="pb-text">
+            Étudiant en Génie Logiciel à Keyce Informatique (promotion 2025), je me suis 
+            spécialisé dans le développement full-stack avec une appétence particulière pour 
+            l'intégration de l'intelligence artificielle dans les applications métier. 
+            Mon parcours mêle formation académique solide et projets concrets en conditions réelles.
+          </p>
+        </div>
+
+        <div class="profil-block reveal">
+          <div class="pb-label">Objectif professionnel</div>
+          <p class="pb-text">
+            Intégrer une équipe ambitieuse à Montpellier pour un stage ou une alternance 
+            en développement web, e-commerce ou IA. Apporter une vision moderne du 
+            développement : architecture propre, UX soignée, code maintenable.
+          </p>
+        </div>
+
+        <div class="profil-tags reveal">
+          <span class="ptag">🇫🇷 Français</span>
+          <span class="ptag">🇬🇧 Anglais intermédiaire</span>
+          <span class="ptag">📍 Montpellier</span>
+          <span class="ptag">🎓 Licence GL 2025</span>
+          <span class="ptag">🐧 GNU/Linux Certifié</span>
+          <span class="ptag">🤖 IA / LLM</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===================== 01 — COMPÉTENCES ===================== -->
+  <section class="skills-section" id="competences">
+    <div class="section-header reveal">
+      <span class="section-num">01</span>
+      <h2 class="section-title">Compétences</h2>
+    </div>
+
+    <div class="skills-layout">
+
+      <div class="skill-col reveal">
+        <div class="skill-col-header">
+          <span class="sk-num">A</span>
+          <span class="sk-label">Frontend</span>
+        </div>
+        <div class="skill-bars">
+          <div class="skill-bar-item">
+            <div class="sbi-top"><span>React / Next.js</span><span class="sbi-level">Expert</span></div>
+            <div class="sbi-track"><div class="sbi-fill" data-w="90"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="sbi-top"><span>Flutter</span><span class="sbi-level">Avancé</span></div>
+            <div class="sbi-track"><div class="sbi-fill" data-w="80"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="sbi-top"><span>Angular</span><span class="sbi-level">Intermédiaire</span></div>
+            <div class="sbi-track"><div class="sbi-fill" data-w="65"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="sbi-top"><span>React Native</span><span class="sbi-level">Intermédiaire</span></div>
+            <div class="sbi-track"><div class="sbi-fill" data-w="60"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-col reveal">
+        <div class="skill-col-header">
+          <span class="sk-num">B</span>
+          <span class="sk-label">Backend</span>
+        </div>
+        <div class="skill-bars">
+          <div class="skill-bar-item">
+            <div class="sbi-top"><span>Node.js / API REST</span><span class="sbi-level">Expert</span></div>
+            <div class="sbi-track"><div class="sbi-fill" data-w="88"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="sbi-top"><span>SQL / PostgreSQL</span><span class="sbi-level">Avancé</span></div>
+            <div class="sbi-track"><div class="sbi-fill" data-w="78"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="sbi-top"><span>Python</span><span class="sbi-level">Intermédiaire</span></div>
+            <div class="sbi-track"><div class="sbi-fill" data-w="65"></div></div>
+          </div>
+          <div class="skill-bar-item">
+            <div class="sbi-top"><span>Java</span><span class="sbi-level">Intermédiaire</span></div>
+            <div class="sbi-track"><div class="sbi-fill" data-w="60"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-col reveal">
+        <div class="skill-col-header">
+          <span class="sk-num">C</span>
+          <span class="sk-label">IA & E-commerce</span>
+        </div>
+        <div class="skill-tags-list">
+          <span class="stag stag--hot">Gemini / LLM</span>
+          <span class="stag stag--hot">Chatbot IA</span>
+          <span class="stag">Shopify</span>
+          <span class="stag">Marketplace</span>
+          <span class="stag">Dashboards</span>
+          <span class="stag">Analyse ATS</span>
+        </div>
+      </div>
+
+      <div class="skill-col reveal">
+        <div class="skill-col-header">
+          <span class="sk-num">D</span>
+          <span class="sk-label">Outils & Cloud</span>
+        </div>
+        <div class="skill-tags-list">
+          <span class="stag">Supabase</span>
+          <span class="stag">Prisma ORM</span>
+          <span class="stag">Docker</span>
+          <span class="stag">GNU/Linux</span>
+          <span class="stag">Git / GitHub</span>
+          <span class="stag">Merise / UML</span>
+          <span class="stag">Cloud computing</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ===================== 02 — PROJETS ===================== -->
+  <section id="projets">
+    <div class="section-header reveal">
+      <span class="section-num">02</span>
+      <h2 class="section-title">Projets</h2>
+      <span class="section-sub">Réalisations concrètes & dossier d'actions</span>
+    </div>
+
+    <div class="projects-list">
+
+      <!-- Projet 1 -->
+      <div class="project-item reveal">
+        <div class="pi-left">
+          <span class="pi-num">01</span>
+          <span class="pi-year">2026</span>
+        </div>
+        <div class="pi-main">
+          <div class="pi-top">
+            <h3 class="pi-title">CVIA — CV par Intelligence Artificielle</h3>
+            <a href="https://cvai774.onrender.com" class="pi-link" target="_blank">cvai774.onrender.com ↗</a>
+          </div>
+          <p class="pi-desc">
+            Application web full-stack permettant de générer des CV professionnels adaptés 
+            automatiquement aux offres d'emploi. L'IA analyse les mots-clés ATS et génère 
+            un test d'entretien personnalisé. Interface moderne avec génération PDF et sauvegarde locale.
+          </p>
+          <div class="pi-details">
+            <div class="pi-detail">
+              <span class="pid-l">Contexte</span>
+              <span class="pid-v">Projet personnel — production</span>
+            </div>
+            <div class="pi-detail">
+              <span class="pid-l">Durée</span>
+              <span class="pid-v">2 mois (en cours)</span>
+            </div>
+            <div class="pi-detail">
+              <span class="pid-l">Rôle</span>
+              <span class="pid-v">Développeur principal (solo)</span>
+            </div>
+          </div>
+          <div class="pi-stack">
+            <span class="ps-badge">Next.js</span>
+            <span class="ps-badge">TypeScript</span>
+            <span class="ps-badge">Gemini AI</span>
+            <span class="ps-badge">Prisma</span>
+            <span class="ps-badge">Zustand</span>
+            <span class="ps-badge">shadcn/ui</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projet 2 -->
+      <div class="project-item reveal">
+        <div class="pi-left">
+          <span class="pi-num">02</span>
+          <span class="pi-year">2026</span>
+        </div>
+        <div class="pi-main">
+          <div class="pi-top">
+            <h3 class="pi-title">IA Recettes — Gestion & Génération de Recettes</h3>
+            <a href="https://ia-recette.onrender.com" class="pi-link" target="_blank">ia-recette.onrender.com ↗</a>
+          </div>
+          <p class="pi-desc">
+            Application mobile cross-platform de gestion de recettes avec chatbot IA intégré. 
+            Génération automatique de recettes selon les ingrédients disponibles, analyse nutritionnelle, 
+            et système de favoris avec synchronisation cloud en temps réel.
+          </p>
+          <div class="pi-details">
+            <div class="pi-detail">
+              <span class="pid-l">Contexte</span>
+              <span class="pid-v">Projet personnel — production</span>
+            </div>
+            <div class="pi-detail">
+              <span class="pid-l">Durée</span>
+              <span class="pid-v">6 semaines</span>
+            </div>
+            <div class="pi-detail">
+              <span class="pid-l">Rôle</span>
+              <span class="pid-v">Développeur principal (solo)</span>
+            </div>
+          </div>
+          <div class="pi-stack">
+            <span class="ps-badge">Flutter</span>
+            <span class="ps-badge">Node.js</span>
+            <span class="ps-badge">Supabase</span>
+            <span class="ps-badge">IA / Chatbot</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projet 3 -->
+      <div class="project-item reveal">
+        <div class="pi-left">
+          <span class="pi-num">03</span>
+          <span class="pi-year">2025</span>
+        </div>
+        <div class="pi-main">
+          <div class="pi-top">
+            <h3 class="pi-title">Gestion des Dépenses — Application Mobile d'Entreprise</h3>
+          </div>
+          <p class="pi-desc">
+            Application mobile complète de suivi des dépenses internes conçue pour CVIA · Padidja. 
+            Architecture MVC, synchronisation cloud en temps réel, interface pensée selon les 
+            principes du Design Thinking après interviews utilisateurs.
+          </p>
+          <div class="pi-details">
+            <div class="pi-detail">
+              <span class="pid-l">Contexte</span>
+              <span class="pid-v">Mission professionnelle — client réel</span>
+            </div>
+            <div class="pi-detail">
+              <span class="pid-l">Durée</span>
+              <span class="pid-v">3 mois (Mai–Juil 2025)</span>
+            </div>
+            <div class="pi-detail">
+              <span class="pid-l">Rôle</span>
+              <span class="pid-v">Développeur full-stack (solo)</span>
+            </div>
+          </div>
+          <div class="pi-stack">
+            <span class="ps-badge">Flutter</span>
+            <span class="ps-badge">API REST</span>
+            <span class="ps-badge">Supabase</span>
+            <span class="ps-badge">MVC</span>
+            <span class="ps-badge">Design Thinking</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projet 4 -->
+      <div class="project-item reveal">
+        <div class="pi-left">
+          <span class="pi-num">04</span>
+          <span class="pi-year">2026</span>
+        </div>
+        <div class="pi-main">
+          <div class="pi-top">
+            <h3 class="pi-title">MediSecure — Dossier Médical Sécurisé</h3>
+          </div>
+          <p class="pi-desc">
+            Application web médicale développée en hackathon avec authentification 2FA/TOTP, 
+            trois rôles (Médecin, Patient, SuperAdmin), dashboard de gestion de dossiers médicaux 
+            et architecture microservices. Docker, Prisma, PostgreSQL.
+          </p>
+          <div class="pi-details">
+            <div class="pi-detail">
+              <span class="pid-l">Contexte</span>
+              <span class="pid-v">Hackathon académique (équipe)</span>
+            </div>
+            <div class="pi-detail">
+              <span class="pid-l">Durée</span>
+              <span class="pid-v">72h</span>
+            </div>
+            <div class="pi-detail">
+              <span class="pid-l">Rôle</span>
+              <span class="pid-v">Lead développeur</span>
+            </div>
+          </div>
+          <div class="pi-stack">
+            <span class="ps-badge">React</span>
+            <span class="ps-badge">Fastify</span>
+            <span class="ps-badge">PostgreSQL</span>
+            <span class="ps-badge">Prisma</span>
+            <span class="ps-badge">Docker</span>
+            <span class="ps-badge">2FA/TOTP</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ===================== 03 — PARCOURS ===================== -->
+  <section id="experience">
+    <div class="section-header reveal">
+      <span class="section-num">03</span>
+      <h2 class="section-title">Parcours</h2>
+      <span class="section-sub">Expériences & formation</span>
+    </div>
+
+    <div class="timeline">
+
+      <div class="tl-group">
+        <div class="tl-group-label">Expériences professionnelles</div>
+
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-date">Mai – Juil 2025</div>
+          <div class="tl-body">
+            <div class="tl-role">Développeur Web et Mobile</div>
+            <div class="tl-company">CVIA · Padidja</div>
+            <ul class="tl-bullets">
+              <li>Conception et développement d'une application mobile de gestion des dépenses avec Flutter et API REST</li>
+              <li>Analyse des besoins clients, gestion autonome du projet de bout en bout</li>
+              <li>Mise en place d'une base de données cloud avec synchronisation temps réel (Supabase)</li>
+            </ul>
+            <div class="tl-tags">
+              <span>Flutter</span><span>REST API</span><span>Supabase</span><span>Design Thinking</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-date">Juin – Oct 2024</div>
+          <div class="tl-body">
+            <div class="tl-role">Chargé de Projet</div>
+            <div class="tl-company">Rhiana Travaux et Ingénieries</div>
+            <ul class="tl-bullets">
+              <li>Suivi de l'avancement des projets en collaboration avec les équipes techniques</li>
+              <li>Rédaction de rapports de progression et participation aux réunions de pilotage</li>
+            </ul>
+            <div class="tl-tags">
+              <span>Gestion de projet</span><span>Reporting</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-date">Juin – Oct 2023</div>
+          <div class="tl-body">
+            <div class="tl-role">Stagiaire Ressources Humaines</div>
+            <div class="tl-company">Rhiana Travaux et Ingénieries</div>
+            <ul class="tl-bullets">
+              <li>Gestion des dossiers RH et tableaux de bord Excel avec analyse de données</li>
+              <li>Développement d'une mini-application RH pour améliorer la gestion interne</li>
+            </ul>
+            <div class="tl-tags">
+              <span>Excel</span><span>Data</span><span>Mini-app</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-group">
+        <div class="tl-group-label">Formation académique</div>
+
+        <div class="tl-item reveal">
+          <div class="tl-dot tl-dot--edu"></div>
+          <div class="tl-date">2025</div>
+          <div class="tl-body">
+            <div class="tl-role">Licence Génie Logiciel</div>
+            <div class="tl-company">Keyce Informatique · Cameroun</div>
+            <p class="tl-note">Développement full-stack, architecture logicielle, bases de données, gestion de projet.</p>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-dot tl-dot--edu"></div>
+          <div class="tl-date">2023</div>
+          <div class="tl-body">
+            <div class="tl-role">GNU/Linux Certifié</div>
+            <div class="tl-company">Certification officielle</div>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-dot tl-dot--edu"></div>
+          <div class="tl-date">2021 – 2022</div>
+          <div class="tl-body">
+            <div class="tl-role">Baccalauréat Scientifique</div>
+            <div class="tl-company">Academic School of Excellence</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===================== 04 — VALEURS ===================== -->
+  <section class="values-section" id="valeurs">
+    <div class="section-header reveal">
+      <span class="section-num">04</span>
+      <h2 class="section-title">Approche</h2>
+    </div>
+
+    <div class="values-grid">
+      <div class="value-card reveal">
+        <div class="vc-num">01</div>
+        <div class="vc-title">Code propre & maintenable</div>
+        <p class="vc-desc">Architecture pensée pour durer. Chaque projet est conçu pour être repris, amélioré et mis à l'échelle.</p>
+      </div>
+      <div class="value-card reveal">
+        <div class="vc-num">02</div>
+        <div class="vc-title">UX avant tout</div>
+        <p class="vc-desc">Une application technique mais inutilisable ne sert à rien. Je conçois pour l'utilisateur final, pas pour l'abstraction.</p>
+      </div>
+      <div class="value-card reveal">
+        <div class="vc-num">03</div>
+        <div class="vc-title">IA comme outil, pas comme béquille</div>
+        <p class="vc-desc">J'intègre l'IA là où elle apporte une réelle valeur ajoutée — génération, analyse, personnalisation.</p>
+      </div>
+      <div class="value-card reveal">
+        <div class="vc-num">04</div>
+        <div class="vc-title">Livraison en conditions réelles</div>
+        <p class="vc-desc">Tous mes projets récents sont déployés en production. Je travaille avec des contraintes réelles : délais, utilisateurs, budget.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===================== 05 — CONTACT ===================== -->
+  <section class="contact-section" id="contact">
+    <div class="section-header reveal">
+      <span class="section-num">05</span>
+      <h2 class="section-title">Contact</h2>
+    </div>
+
+    <div class="contact-wrap">
+      <div class="contact-headline reveal">
+        <h3>Travaillons<br><em>ensemble.</em></h3>
+        <p>À la recherche d'un stage en développement web, e-commerce ou intégration IA. Disponible dès maintenant à Montpellier.</p>
+        <a href="mailto:frankpange157@icloud.com" class="btn-primary">Envoyer un email</a>
+      </div>
+
+      <div class="contact-cards reveal">
+        <a href="mailto:frankpange157@icloud.com" class="cc">
+          <span class="cc-icon">✉</span>
+          <div>
+            <div class="cc-label">Email</div>
+            <div class="cc-val">frankpange157@icloud.com</div>
+          </div>
+        </a>
+        <a href="tel:+33605660649" class="cc">
+          <span class="cc-icon">☏</span>
+          <div>
+            <div class="cc-label">Téléphone</div>
+            <div class="cc-val">06 05 66 06 49</div>
+          </div>
+        </a>
+        <a href="https://github.com/Franking31" target="_blank" class="cc">
+          <span class="cc-icon">⌥</span>
+          <div>
+            <div class="cc-label">GitHub</div>
+            <div class="cc-val">github.com/Franking31</div>
+          </div>
+        </a>
+        <div class="cc cc--loc">
+          <span class="cc-icon">◎</span>
+          <div>
+            <div class="cc-label">Localisation</div>
+            <div class="cc-val">Montpellier, France</div>
+          </div>
+        </div>
+        <a href="#" class="cc cc--linkedin">
+          <span class="cc-icon">in</span>
+          <div>
+            <div class="cc-label">LinkedIn</div>
+            <div class="cc-val">Ajouter ton URL →</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <div class="footer-left">
+      <span>Pange Fotso Frank Radesky</span>
+      <span class="footer-sep">·</span>
+      <span>Portfolio & Dossier de Fin d'Étude 2026</span>
+    </div>
+    <div class="footer-right">
+      <span>Licence Génie Logiciel</span>
+      <span class="footer-sep">·</span>
+      <span>GNU/Linux Certifié</span>
+      <span class="footer-sep">·</span>
+      <span>Keyce Informatique</span>
+    </div>
+  </footer>
+
+
+  <!-- ===================== SCRIPT ===================== -->
+  <script>
+    // Loader
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        document.getElementById('loader').classList.add('loaded');
+      }, 1200);
+    });
+
+    // Custom cursor (desktop only)
+    const cursor = document.getElementById('cursor');
+    const follower = document.getElementById('cursorFollower');
+    let mx = 0, my = 0, fx = 0, fy = 0;
+
+    document.addEventListener('mousemove', e => {
+      mx = e.clientX; my = e.clientY;
+      cursor.style.transform = `translate(${mx}px, ${my}px)`;
+    });
+
+    function animFollower() {
+      fx += (mx - fx) * 0.12;
+      fy += (my - fy) * 0.12;
+      follower.style.transform = `translate(${fx - 16}px, ${fy - 16}px)`;
+      requestAnimationFrame(animFollower);
+    }
+    animFollower();
+
+    document.querySelectorAll('a, button').forEach(el => {
+      el.addEventListener('mouseenter', () => {
+        cursor.classList.add('cursor--hover');
+        follower.classList.add('cursor--hover');
+      });
+      el.addEventListener('mouseleave', () => {
+        cursor.classList.remove('cursor--hover');
+        follower.classList.remove('cursor--hover');
+      });
+    });
+
+    // Nav scroll
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('nav--scrolled', window.scrollY > 60);
+    });
+
+    // Burger menu
+    const burger = document.getElementById('navBurger');
+    const mMenu = document.getElementById('mobileMenu');
+    burger.addEventListener('click', () => {
+      mMenu.classList.toggle('open');
+      burger.classList.toggle('open');
+    });
+    document.querySelectorAll('.mm-link').forEach(l => {
+      l.addEventListener('click', () => {
+        mMenu.classList.remove('open');
+        burger.classList.remove('open');
+      });
+    });
+
+    // Reveal on scroll
+    const reveals = document.querySelectorAll('.reveal');
+    const revObs = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          const siblings = [...e.target.parentElement.querySelectorAll('.reveal:not(.revealed)')];
+          const idx = siblings.indexOf(e.target);
+          setTimeout(() => {
+            e.target.classList.add('revealed');
+          }, idx * 80);
+          revObs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    reveals.forEach(r => revObs.observe(r));
+
+    // Skill bar animation
+    const bars = document.querySelectorAll('.sbi-fill');
+    const barObs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.style.width = e.target.dataset.w + '%';
+          barObs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.5 });
+    bars.forEach(b => barObs.observe(b));
+  </script>
+
+</body>
+</html>
